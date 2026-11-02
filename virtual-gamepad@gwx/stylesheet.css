@@ -1,0 +1,123 @@
+/* ============================================
+ * Virtual Gamepad - GNOME Shell Extension CSS
+ * ============================================ */
+
+/* ===== Analog Stick ===== */
+
+.gamepad-stick-pad {
+    background-color: rgba(40, 40, 40, 0.55);
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    border-radius: 999px;
+}
+
+.gamepad-stick-pad.dragging {
+    border-color: rgba(255, 200, 0, 0.8);
+    border-width: 3px;
+}
+
+.gamepad-stick-thumb {
+    background-color: rgba(200, 200, 200, 0.7);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 999px;
+}
+
+/* ===== Buttons Common ===== */
+
+.gamepad-btn {
+    background-color: rgba(50, 50, 50, 0.6);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 999px;
+}
+
+.gamepad-btn.pressed {
+    background-color: rgba(255, 255, 255, 0.35);
+    border-color: rgba(255, 255, 255, 0.7);
+}
+
+.gamepad-btn.dragging {
+    border-color: rgba(255, 200, 0, 0.8);
+    border-width: 3px;
+}
+
+.gamepad-btn-label {
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* ===== Face Buttons (Xbox Colors) ===== */
+
+.gamepad-btn-a {
+    background-color: rgba(76, 175, 80, 0.45);
+    border-color: rgba(76, 175, 80, 0.6);
+}
+.gamepad-btn-a.pressed {
+    background-color: rgba(76, 175, 80, 0.75);
+}
+
+.gamepad-btn-b {
+    background-color: rgba(244, 67, 54, 0.45);
+    border-color: rgba(244, 67, 54, 0.6);
+}
+.gamepad-btn-b.pressed {
+    background-color: rgba(244, 67, 54, 0.75);
+}
+
+.gamepad-btn-x {
+    background-color: rgba(33, 150, 243, 0.45);
+    border-color: rgba(33, 150, 243, 0.6);
+}
+.gamepad-btn-x.pressed {
+    background-color: rgba(33, 150, 243, 0.75);
+}
+
+.gamepad-btn-y {
+    background-color: rgba(255, 235, 59, 0.45);
+    border-color: rgba(255, 235, 59, 0.6);
+}
+.gamepad-btn-y.pressed {
+    background-color: rgba(255, 235, 59, 0.75);
+}
+
+/* ===== DPAD ===== */
+
+.gamepad-dpad {
+    border-radius: 8px;
+    background-color: rgba(60, 60, 60, 0.55);
+}
+.gamepad-dpad.pressed {
+    background-color: rgba(180, 180, 180, 0.5);
+}
+
+/* ===== Shoulder Buttons ===== */
+
+.gamepad-shoulder {
+    border-radius: 10px;
+    background-color: rgba(50, 50, 50, 0.55);
+}
+.gamepad-shoulder.pressed {
+    background-color: rgba(200, 200, 200, 0.4);
+}
+
+/* ===== Trigger Buttons ===== */
+
+.gamepad-trigger {
+    border-radius: 10px;
+    background-color: rgba(70, 50, 50, 0.55);
+    border-color: rgba(255, 100, 100, 0.3);
+}
+.gamepad-trigger.pressed {
+    background-color: rgba(255, 100, 100, 0.45);
+}
+
+/* ===== Center Buttons (SELECT/MODE/START) ===== */
+
+.gamepad-center {
+    border-radius: 8px;
+    background-color: rgba(40, 40, 40, 0.5);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+.gamepad-center.pressed {
+    background-color: rgba(150, 150, 150, 0.4);
+}

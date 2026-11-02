@@ -1,0 +1,8 @@
+{
+    "name": "Virtual Gamepad",
+    "description": "Virtual Xbox gamepad overlay for touchscreen devices",
+    "uuid": "virtual-gamepad@gwx",
+    "shell-version": ["49"],
+    "version": 1,
+    "url": ""
+}
